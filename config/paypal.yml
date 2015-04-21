@@ -1,0 +1,20 @@
+test: &default
+
+  # Credentials for REST APIs
+  client_id: AfhQgMjbzJlgCDEnn0K0a16SFC0CuDWDd4gOQ4mGZYYx-Lq2Kf-IwkauUlMC4l2ZdurQxl0yp0ySAidF
+  client_secret: EH8cy9Ctrf4I2VlFOQlgc9Vpoyj9IhRnLPHas_ex663cItkqVJC80UkMXsaOHGNHej8qUEdssUUOz7WL
+
+  # Mode can be 'live' or 'sandbox'
+  mode: sandbox
+
+  # # With Certificate
+  # cert_path: "config/cert_key.pem"
+  sandbox_email_address: jmperez.85-facilitator@gmail.com
+
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  mode: live
