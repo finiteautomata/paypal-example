@@ -28,3 +28,4 @@ gem 'spring',        group: :development
 
 gem 'pry-rails'
 gem 'paypal-sdk-rest'
+gem 'paypal-sdk-adaptivepayments'

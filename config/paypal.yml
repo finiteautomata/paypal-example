@@ -12,6 +12,22 @@ test: &default
   sandbox_email_address: jmperez.85-facilitator@gmail.com
 
 
+  # Credentials for Classic APIs
+  app_id: APP-80W284485P519543T
+  username: jmperez.85-facilitator_api1.gmail.com
+  password: 1384887759
+  signature: A6ip8szxH5F5B.32RUTAdqb2NfyzAdhHvcg62WJ9IjsZY5aLfOakpZu2
+  # # With Certificate
+  # cert_path: "config/cert_key.pem"
+  sandbox_email_address: Platform.sdk.seller@gmail.com
+
+  # # IP Address
+  # ip_address: 127.0.0.1
+  # # HTTP Proxy
+  # http_proxy: http://proxy-ipaddress:3129/
+
+  # verbose_logging: true
+
 development:
   <<: *default
 
